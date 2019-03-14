@@ -23,7 +23,7 @@ function myGifInfo(event) {
     $('#giphy-container').html(' ');
     
     var villain = $(this).attr("data-name");// will use this for the search on API
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + villain + "&limit=9&api_key=lwyXR0cQ0Oqg4vaafNHcFmYbJqF2E20u";
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + villain + "&limit=9&api_key=lwyXR0cQ0Oqg4vaafNHcFmYbJqF2E20u";
 
     //get the API
     $.ajax({
@@ -65,8 +65,6 @@ function myGifInfo(event) {
                 });
             }
         }
-    }, function (e) {
-        alert(JSON.stringify(e));
     });
 }
 //function to display the buttons
