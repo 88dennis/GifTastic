@@ -1,0 +1,137 @@
+body{
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 960px;
+  overflow: auto;
+  background-color: black;
+
+}
+
+.myGif {
+  margin: 5px;
+}
+
+#add-gifs {
+  margin-top: 10px;
+}
+
+
+.container {
+  width: 960px;
+  height: 700px;
+  margin: auto;
+  margin-top: 0px;
+
+  margin-bottom: 20px;
+  background-image: url(../images/The-Joker-Wallpaper-by-whathe-on-deviantART.jpg);
+
+  overflow: auto;
+  padding-bottom: 20px;
+  position: relative;
+  display:  flex;
+  flex-direction: row;
+
+}
+
+h1 {
+  color: #cc00ff;
+  font-family: 'Eater', cursive;
+  font-size: 70px;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    letter-spacing: 2px;
+}
+
+p {
+  color: #49fb35;
+  font-family: 'Eater', cursive;
+  font-size: 20px;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    letter-spacing: 2px;
+}
+
+.btn {
+font-family: 'Bangers', cursive;
+text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+::placeholder {
+  font-family: 'Bangers', cursive;
+  color: green;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+
+input[type="text"] {
+  font-family: 'Bangers', cursive;
+  color: green;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+
+#input-container {
+  width: 60%;
+}
+#buttons-container {
+  width: 100%;
+}
+
+
+#giphy-container
+{
+  width: 40%;
+}
+
+@media (max-width: 640px){
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+#input-container {
+  width: 40%;
+}
+
+::placeholder {
+  font-family: 'Bangers', cursive;
+  color: green;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+
+}
+
+@media (max-width: 780px){
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+#input-container {
+  width: 40%;
+}
+
+::placeholder {
+  font-family: 'Bangers', cursive;
+  color: green;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+
+}
